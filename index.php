@@ -36,7 +36,7 @@ $_SESSION['userdata']=$userdata;
 //$_SESSION['statuses'] = $statuses;
 //$_SESSION['links']=$links;
 //$_SESSION['posts']=$posts;
-//$_SESSION['logout'] = $logoutUrl;
+$_SESSION['logout'] = $logoutUrl;
 
 //連接到show.php
 
