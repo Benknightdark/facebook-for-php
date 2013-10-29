@@ -1,7 +1,7 @@
 <?php
 require_once 'facebook.php';
-$facebook_appid='413103708754525';
-$facebook_app_secret='c84c3990d6b47a60c2f33ea29c127364';
+$facebook_appid='your app id';//輸入你的應用程式的id
+$facebook_app_secret='your app secret';//輸入你的應用程式的金鑰
 $facebook = new Facebook(array(
 'appId' => $facebook_appid,
 'secret' => $facebook_app_secret,
