@@ -9,7 +9,7 @@ $user = $facebook->getUser();//取回當前用戶的ID
 if ($user)//如果此用戶的facebookID是否存在
 {
 		$logoutUrl = $facebook->getLogoutUrl(array(
-        'next' => 'http://ben.local/fboop/logout.php'
+        'next' => 'http://ben.local/fbtest/logout.php'//需要改成自己網站的網址
     ));
 		$token = $facebook->getAccessToken();
 try 
@@ -62,7 +62,7 @@ friends_status,friends_subscriptions,friends_videos,friends_website,friends_work
 
 
 ));
-echo '<a href="'.$loginUrl.'"><img src="fblogin.jpg" title="Login with Facebook" /></a>';
+echo '<a href="'.$loginUrl.'">login</a>';
 
 
 }
