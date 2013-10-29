@@ -6,7 +6,7 @@
 require_once 'facebook.php';
 require 'fbconfig.php';
 $user = $facebook->getUser();//取回當前用戶的ID
-if ($user)//如果此用戶的facebookID是否存在
+if ($user)//判斷此用戶的facebookID是否存在
 {
 		$logoutUrl = $facebook->getLogoutUrl(array(
         'next' => 'http://ben.local/fbtest/logout.php'//需要改成自己網站的網址
